@@ -1,7 +1,3 @@
-.d3-component svg {
-  background: #ddd;
-  max-height: 300px;
-}
 
 .derivative-table {
   font-size: 10px;
@@ -14,13 +10,12 @@
 }
 
 .article-header a {
-  color: #000 !important;
+  color: #000;
 }
 
 .derivative-table .row:hover {
   background: #f3f3f3;
 }
-
 
 .derivative-table .row svg {
   cursor: crosshair;
@@ -39,10 +34,4 @@ h1.hed {
   width: 800px;
   max-width: 100%;
   margin: 0 auto;
-}
-
-@media all and (max-width: 1000px) {
-  .d3-component svg {
-    max-height: 200px;
-  }
 }
