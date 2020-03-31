@@ -1,0 +1,44 @@
+[meta title:"Visualizing the rate of change for COVID-19 cases in the U.S." description:"To understand what is going in the United States with the recent outbreak,
+it isn't enough to look at just the cumulative number of cases or deaths."
+  shareImageUrl:"https://roc.covid.mathisonian.com/static/images/share.png"
+  shareImageWidth:"880"
+  shareImageHeight:"440"
+ /]
+
+[Header
+  fullWidth:true
+  title:"Visualizing the rate of change for COVID-19 cases in the U.S."
+  subtitle:""
+  author:"Matthew Conlen"
+  authorLink:"https://twitter.com/mathisonian"
+  date:"Updated March 31st"
+  background:"#ffffff"
+  color:"#000000"
+   /]
+
+
+[data name:"stateCovidData" source:"processed.json" /]
+
+
+To understand what is going in the United States with the recent outbreak,
+it isn't enough to look at just the cumulative number of cases or deaths. Here, I've
+created a visualization that allows you to simultaneously view the cumulative total,
+the derivative of the cumulative total (i.e. the daily increase), and the derivative of that
+derivative (the rate of change of the daily increase). Click on the table headers to sort the data.
+
+[br/]
+[br/]
+
+
+[DerivativeTable data:stateCovidData /]
+
+
+[br/]
+[br/]
+[br/]
+
+
+Data from the New York Times [open data set](https://github.com/nytimes/covid-19-data). Note that this is still an incomplete picture, and the data should be considered in context with how they are reported, along with the number of tests that have been done in each state.
+
+
+[Analytics google:"UA-110219424-1" tag:"covid-roc" /]

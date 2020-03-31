@@ -1,0 +1,48 @@
+.d3-component svg {
+  background: #ddd;
+  max-height: 300px;
+}
+
+.derivative-table {
+  font-size: 10px;
+  text-transform: uppercase;
+
+}
+
+.derivative-table .row {
+  padding: .5em 0;
+}
+
+.article-header a {
+  color: #000 !important;
+}
+
+.derivative-table .row:hover {
+  background: #f3f3f3;
+}
+
+
+.derivative-table .row svg {
+  cursor: crosshair;
+}
+
+.sortable {
+  cursor: pointer;
+}
+
+.sortable:hover {
+  font-weight: bold;
+}
+
+h1.hed {
+  font-size: 3em;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1000px) {
+  .d3-component svg {
+    max-height: 200px;
+  }
+}
