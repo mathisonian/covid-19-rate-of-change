@@ -2,6 +2,10 @@
   "name": "src",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "start": "idyll",
+    "build": "idyll build"
+  },
   "idyll": {
     "theme": "default",
     "layout": "centered",

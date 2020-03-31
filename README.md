@@ -1,6 +1,6 @@
-# idyll-post
+# COVID-19 Rate of Change visualizations
 
-Template for a single Idyll post.
+View live: https://roc.covid.mathisonian.com/
 
 ## Installation
 
